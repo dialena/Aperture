@@ -198,5 +198,13 @@ header nav li:last-of-type a{
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.4px;
-
+}
+.newtext H4{
+    background-color: aqua;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
 }
