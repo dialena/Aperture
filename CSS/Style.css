@@ -186,3 +186,6 @@ header nav li:last-of-type a{
     line-height: 20px;
     letter-spacing: 0.4px;
 }
+.newtext {
+    padding-left: 30px;
+}
