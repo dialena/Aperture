@@ -177,3 +177,6 @@ header nav li:last-of-type a{
     margin-right: 6px;
     background-image: url("../Images/Frame1.svg");
 }
+.new{
+    background-color: #C0C0C0;
+}
