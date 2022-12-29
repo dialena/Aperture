@@ -92,6 +92,75 @@ header nav li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
 }
+.What_we_do{
+    padding-top: 112px;
+    padding-bottom: 100px;
+    background-color: #000000;
+}
+.What_we_do .container {
+    max-width: 1168px;
+}
+.What_we_do H3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.What_we_do H4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.d_flex_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.What_we_do .d_flex_container article{
+    max-width: 576px;
+    position: relative;
+}
+.What_we_do .d_flex_container article img{
+    display: block;
+    width: 100%;
+}
+.What_we_do .d_flex_container article .description{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 30px 45px 30px 30px;
+    box-sizing: border-box;
+}
+.What_we_do .description H4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.What_we_do .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 20px;
+}
 .clients {
     padding-top: 113px;
     padding-bottom: 140px;
