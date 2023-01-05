@@ -412,6 +412,7 @@ footer{
     justify-content: space-between;
     margin-bottom: 36px;
     margin-right: 102px;
+    width: 356px;
 }
 .menu_f H4{
     font-family: 'Poppins';
@@ -423,8 +424,7 @@ footer{
     text-transform: uppercase;
     color: #C0C0C0;
     margin-bottom: 10px;
-    margin-left: 55px;
-}
+    }
 .menu_f ul li a{
     list-style: none;
     text-decoration: none;
@@ -435,8 +435,7 @@ footer{
     line-height: 20px;
     color: #FFFFFF;
     margin-bottom: 10px;
-    margin-left: 55px;
-}
+    }
 .subscribe{
     display: flex;
     justify-content: space-between;
