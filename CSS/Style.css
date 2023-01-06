@@ -58,6 +58,7 @@ header nav li:last-of-type a{
     align-items: flex-end;
     padding-bottom: 71px;
     box-sizing: border-box;
+    position: relative;
 }
 .main_banner .container{
     max-width: 580px;
@@ -91,6 +92,43 @@ header nav li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+.position_items{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    display: flex;
+    list-style: none;
+}
+.position_items li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.position_items li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../Images/Item_1.svg");
+    height: 16px;
+    width: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -6px;
+}
+.position_items li:nth-child(2):before{
+    background-image: url("../Images/Item_2.svg");
+}
+.position_items li:nth-child(3):before{
+    background-image: url("../Images/Item_3.svg");
+    width: 32px;
+}
+.position_items li:nth-child(4):before{
+    background-image: url("../Images/Item_4.svg");
+    width: 10px;
 }
 .What_we_do{
     padding-top: 112px;
@@ -181,6 +219,7 @@ header nav li:last-of-type a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .text_param1{
     max-width: 298px;
@@ -204,6 +243,58 @@ header nav li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
 }
+.we_use{
+    background-color: black;
+    position: relative;
+}
+.we_use_p{
+    max-width: 1240px;
+    min-height: 540px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.we_use .information{
+    max-width: 514px;
+}
+.information H4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.information H3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.information p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.we_use .banner_we_use{
+    background-image: url("../Images/banner_we_use.jpg");
+    position: absolute;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+}
 .monstera{
     background-image: url("../Images/Monstera.jpg");
     background-size: cover;
@@ -211,6 +302,7 @@ header nav li:last-of-type a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .text_param2 {
     max-width: 273px;
@@ -241,6 +333,7 @@ header nav li:last-of-type a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .text_param3 {
     max-width: 254px;
@@ -400,7 +493,7 @@ footer{
     margin-bottom: 20px;
 }
 .pages p{
-    ont-family: 'Poppins';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
