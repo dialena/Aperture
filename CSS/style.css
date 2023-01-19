@@ -547,13 +547,14 @@ footer{
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-.subscribe p{
+.subscribe a{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
     color: #C0C0C0;
+    text-decoration: none;
 }
 .forma{
     background: #F9FAFB;
