@@ -399,12 +399,12 @@ header nav li:last-of-type a{
     display: flex;
     align-items: center;
 }
-.clients_logo .owl-naw .owl-prev{
+.clients_logo .owl-nav .owl-prev{
     position: absolute;
     left: -50px;
-    top: 58px;
+    top: 28px;
 }
-.clients_logo .owl-naw .owl-prev:after{
+.clients_logo .owl-nav .owl-prev:after{
     font-weight: 900;
     font-family: "Font Awesome 6 Free";
     content: "\f053";
@@ -412,12 +412,13 @@ header nav li:last-of-type a{
     font-size: 40px;
     display: inline-block;
 }
-.clients_logo .owl-naw .owl-next{
+.clients_logo .owl-nav .owl-next{
     position: absolute;
     right: -50px;
-    top: 58px;
+    top: 28px;
+    transform: scale(-1, 1)
 }
-.clients_logo .owl-naw .owl-prev:after{
+.clients_logo .owl-nav .owl-next:after{
     font-weight: 900;
     font-family: "Font Awesome 6 Free";
     content: "\f053";
